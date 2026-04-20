@@ -14,4 +14,9 @@ public class Home extends Context {
   public void exampleHomePageStep() {
     System.out.println("printing shared stash :" + getTestStash().toString());
   }
+
+  @Given("add other steps")
+  public void addOtherSteps() {
+    // Placeholder step — implement additional steps here as needed
+  }
 }
