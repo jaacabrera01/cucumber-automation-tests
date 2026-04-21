@@ -47,10 +47,10 @@ verifying the data re-orders correctly in ascending order.
 
 Project Structure
 src/test/java/io/cucumber/
-├── core/          Driver setup, hooks, and shared utilities
-├── glue/          Step definitions — connects feature file steps to Java code  
-├── pages/         Page Objects — models each web page under test
+├── core/     Driver setup, hooks, and shared utilities
+├── glue/     Step definitions — connects feature file steps to Java code
+├── pages/    Page Objects — models each web page under test
 └── RunCucumberTest.java
 
 src/test/resources/io/cucumber/
-└── features/      Feature files — plain English test scenarios (Gherkin)
+└── features/ Feature files — plain English test scenarios (Gherkin)
