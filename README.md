@@ -45,7 +45,7 @@ invalid credentials (expect rejection), and mismatched credentials (expect rejec
 Scenario 3 — Sortable Data Tables are tested by clicking column headers and
 verifying the data re-orders correctly in ascending order.
 
-Project Structure
+## Project Structure
 src/test/java/io/cucumber/
 ├── core/     Driver setup, hooks, and shared utilities
 ├── glue/     Step definitions — connects feature file steps to Java code
