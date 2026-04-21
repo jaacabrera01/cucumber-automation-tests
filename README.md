@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cucumber-Java-Selenium
 
 This is a simple setup for Cucumber with Selenium using Java.
@@ -113,3 +114,7 @@ Ensure the Example 1 table displays the following results.
 | Bach      | Frank      | fbach@yahoo.com        | $51.00 | http://www.frank.com       |
 | Doe       | Jason      | jdoe@hotmail.com       | $100.00| http://www.jdoe.com        |
 | Conway    | Tim        | tconway@earthlink.net  | $50.00 | http://www.timconway.com   |
+=======
+# cucumber-automation-tests
+Automated test suite for The Internet using Cucumber-Java-Selenium framework.  Tests homepage validation, basic auth, and data table sorting.
+>>>>>>> 398e29d929911b9c571d36e866d0851d1ca4069e
