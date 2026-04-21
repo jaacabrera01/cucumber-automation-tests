@@ -9,10 +9,10 @@ The tests are written using **Behaviour Driven Development (BDD)** with Cucumber
 
 | Test ID | Scenario | Status |
 |---|---|---|
-| TEST_TI_0001 | Homepage displays the expected list of example links 
-| TEST_TI_0002 - TEST_TI_003 | Basic Auth validates access with valid and invalid credentials
-| TEST_TI_0004 | Verification of data table
-| TEST_TI_0005 - TEST_TI_008| Sortable Data Tables can be sorted by column 
+| TEST_TI_0001 | Homepage displays the expected list of example links | Passed |
+| TEST_TI_0002 - TEST_TI_003 | Basic Auth validates access with valid and invalid credentials | Passed |
+| TEST_TI_0004 | Verification of data table | Passed |
+| TEST_TI_0005 - TEST_TI_008| Sortable Data Tables can be sorted by column | Passed |
 
 | Tool | Purpose |
 |---|---|
