@@ -36,14 +36,20 @@ The tests are written using **Behaviour Driven Development (BDD)** with Cucumber
 cd cucumber-java-selenium
 3. Run all tests using mvn test
 
-## Test Design Notes: 
-Scenario 1 — The homepage requirement lists 40 examples. The live page renders
-44 links. The test verifies all 40 required items are present and flags the
-discrepancy in the failure message.
-Scenario 2 — Basic Auth is tested with valid credentials (expect success),
-invalid credentials (expect rejection), and mismatched credentials (expect rejection).
-Scenario 3 — Sortable Data Tables are tested by clicking column headers and
-verifying the data re-orders correctly in ascending order.
+## Test Design Notes
+1. **Scenario 1** — The homepage requirement lists 40 examples.  
+   - The live page renders 44 links.  
+   - The test verifies all 40 required items are present.  
+   - Flags the discrepancy in the failure message.
+
+2. **Scenario 2** — Basic Auth is tested with:  
+   - Valid credentials (expect success)  
+   - Invalid credentials (expect rejection)  
+   - Mismatched credentials (expect rejection)
+
+3. **Scenario 3** — Sortable Data Tables are tested by:  
+   - Clicking column headers  
+   - Verifying the data re-orders correctly in ascending/descending order
 
 # Project Structure
 - **glue/** — *Step definitions: connects feature file steps to Java code*
