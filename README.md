@@ -45,8 +45,8 @@ invalid credentials (expect rejection), and mismatched credentials (expect rejec
 Scenario 3 — Sortable Data Tables are tested by clicking column headers and
 verifying the data re-orders correctly in ascending order.
 
-## Project Structure
-├── glue/          Step definitions
-├── pages/         Page Objects
-├── core/          Driver setup, hooks, utilities
-└── features/      Feature files (Gherkin)
+# Project Structure
+- **glue/** — *Step definitions: connects feature file steps to Java code*
+- **pages/** — *Page Objects: models each web page under test*
+- **core/** — *Driver setup, hooks, and shared utilities*
+- **features/** — *Feature files: plain English test scenarios (Gherkin)*
