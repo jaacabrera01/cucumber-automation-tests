@@ -10,9 +10,13 @@ public class Navigation extends Context {
     super(manager);
   }
 
-  @Given("^the page under test is '(.+)'$")
-  public void navToPage(String url) {
-    manager.getDriver().get(url);
-    stash("exampleKey1", "exampleValue1");
+  @Given("the page under test is {string}")
+  public void thePageUnderTestIs(String url) {
+    getDriver().get(url);
+    getTestStash().remove("homePage");
+
+    if ("https://the-internet.herokuapp.com".equals(url)) {
+      stash("homePage", new io.cucumber.pages.Home(getDriver()));
+    }
   }
 }
