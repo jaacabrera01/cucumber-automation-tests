@@ -36,6 +36,7 @@ The tests are written using **Behaviour Driven Development (BDD)** with Cucumber
 cd cucumber-java-selenium
 3. Run all tests using mvn test
 
+
 ## Project Stucture
 ├── glue/       Step definitions — connects feature file steps to Java code
 ├── pages/      Page Objects — models each web page under test
