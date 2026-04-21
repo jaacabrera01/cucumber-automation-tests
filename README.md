@@ -33,7 +33,6 @@ The tests are written using **Behaviour Driven Development (BDD)** with Cucumber
 
 1. Clone this repository
 2. Open a terminal and navigate to the project folder:
-```bash
 cd cucumber-java-selenium
 3. Run all tests using mvn test
 
@@ -43,7 +42,7 @@ cd cucumber-java-selenium
 ├── core/       Driver setup, hooks, and shared utilities
 └── features/   Feature files — plain English test scenarios (Gherkin)
 
-##Test Design Notes:
+## Test Design Notes: 
 Scenario 1 — The homepage requirement lists 40 examples. The live page renders
 44 links. The test verifies all 40 required items are present and flags the
 discrepancy in the failure message.
